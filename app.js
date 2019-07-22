@@ -1,11 +1,10 @@
-process.env["LOGSTASH_IP"] = "10.0.10.104";
+process.env["LOGSTASH_IP"] = "10.0.10.204";
 process.env["LOGSTASH_PORT"] = 5033;
 
 const isTest = true;
 const snmp = require("snmp-native");
 const logstash = require("node-logstash-send");
 const dateFormat = require("dateformat");
-const faker = require("faker");
 let snmpValue = 0;
 // let snmpValueNew = 0;
 const EIPIP = "10.0.10.108";

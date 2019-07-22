@@ -1,0 +1,11 @@
+node_modules/
+md/
+/package-lock.json
+/package.json
+.idea/
+doc/
+log/
+video/
+images/
+show.iml
+package-lock.json

@@ -1,5 +1,5 @@
 {
-    "name": "EIP SNMP Client",
+    "name": "eipsnmp",
     "version": "1.0.0",
     "main": "app.js",
     "repository": "https://github.com/liqinnetgain/EIPSnmpClient",
@@ -7,10 +7,14 @@
     "private": true,
     "license": "none",
     "scripts": {
-      "start": "node app",
-      "watch": "nodemon app && mongod"
+        "start": "node app.js",
+        "watch": "nodemon app"
     },
     "dependencies": {
-
+        "asap": "^2.0.6",
+        "dateformat": "^3.0.3",
+        "node-logstash-send": "^1.0.0",
+        "promise": "^8.0.3",
+        "snmp-native": "^1.2.0"
     }
-  }
+}
