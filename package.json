@@ -1,0 +1,16 @@
+{
+    "name": "EIP SNMP Client",
+    "version": "1.0.0",
+    "main": "app.js",
+    "repository": "https://github.com/liqinnetgain/EIPSnmpClient",
+    "author": "DanielDeutsch <deudan1010@gmail.com>",
+    "private": true,
+    "license": "none",
+    "scripts": {
+      "start": "node app",
+      "watch": "nodemon app && mongod"
+    },
+    "dependencies": {
+
+    }
+  }
